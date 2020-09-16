@@ -32,6 +32,11 @@ dependencies {
     releaseImplementation "com.ms:android-module-super:latest-RELEASE"
     debugImplementation "com.ms:android-module-super:latest-DEBUG"
 
+
+    // 支付宝
+    implementation(name: 'alipaySdk-15.7.9-20200727142846', ext: 'aar')
+
+
 }
 
 apply from: "./maven_publish.gradle"
